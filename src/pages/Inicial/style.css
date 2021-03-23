@@ -1,0 +1,235 @@
+.container{
+
+    background-image: url('https://unip.br/assets/img/header_01.png');
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--titulo{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 60px;
+    word-break: break-all;
+    text-align: center;
+}
+.container--inicial{
+display: flex;
+flex-direction: column;
+height: 200px;
+
+width: 350px;
+justify-content: space-between;
+transition: all 0.5s;
+}
+.container--inicial button{
+height: 80px;
+border-radius: 60px;
+opacity: 0.7;
+border:2px solid #007bff;
+color: white;
+font-size: 20px;
+font-weight: bold;
+outline: 0;
+background-color: transparent;
+}
+
+.container--inicial--button--ja:hover{
+    opacity: 1;
+    border:2px solid white;
+    transition: all ease 1s;
+    color: black;
+    background-color: white;
+}
+
+.container--inicial--button--cad:hover{
+    opacity: 1;
+    background-color: #007bff;
+    transition: all ease 1s;
+}
+
+.container--login{
+display: none;
+flex-direction: column;
+width: 400px;
+height: 300px;
+align-items: center;
+border:2px solid #007bff;
+padding: 30px 15px;
+border-radius: 20px;
+justify-content: center;
+transition: all 0.5s;
+
+}
+
+.container--login--email{
+    width: 95%;
+    height: 45px;
+    margin-bottom: 15px;
+    outline: 0;
+    background-color: white;
+    border:1px solid #007bff;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+
+
+.container--login--password{
+    width: 95%;
+    height: 45px;
+    margin-bottom: 15px;
+    outline: 0;
+    background-color: white;
+    border:1px solid #007bff;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.container--login--div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.container--login--button--entra{
+    width: 45%;
+    height: 55px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(57, 204, 57);
+    transition: all ease 1s;
+    opacity: 0.5;
+    outline: none;
+    margin-left: 20px;
+}
+.container--login--button--entra:hover{
+    opacity: 1;
+}
+
+
+.container--login--button--volta{
+    width: 45%;
+    height: 55px;
+    border: 2px solid #007bff;
+    margin-top: 15px;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    background-color: transparent;
+    transition: all ease 1s;
+    opacity: 0.5;
+    outline: none;
+    margin-right: 20px;
+}
+.container--login--button--volta:hover{
+    opacity: 1;
+}
+
+
+
+.container--cadastro{
+display: none;
+flex-direction: column;
+background-color: transparent;
+height: 350px;
+width: 400px;
+justify-content: center;
+align-items: center;
+border:1px solid #007bff;
+border-radius: 10px;
+padding: 3px 10px;
+
+}
+
+
+.container--cadastro--password{
+
+    width: 95%;
+    height: 45px;
+    margin-bottom: 15px;
+    outline: 0;
+    background-color: white;
+    border:1px solid #007bff;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.container--cadastro--email{
+    width: 95%;
+    height: 45px;
+    margin-bottom: 15px;
+    outline: 0;
+    background-color: white;
+    border:1px solid #007bff;
+    padding-left: 10px;
+    border-radius: 7px;
+
+
+}
+
+.container--cadastro--titulo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+
+.container--button--centro{
+display: flex;
+flex-direction: row;
+width: inherit;
+justify-content: center;
+height: 50px;
+
+}
+.container--cadastro--button{
+    width: 120px;
+    height: 100%;
+    margin: 0 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container--cadastro--button--volta{
+
+    color: #007bff;
+    border:2px solid #007bff;
+    background-color: transparent; 
+    border:2px solid #007bff;
+    opacity: 0.5;
+    transition: all 1s;
+    outline: none;
+
+
+}
+.container--cadastro--button--volta:hover{
+    color: white;
+    background-color: #007bff;
+    border:2px solid white;
+opacity: 1;
+}
+
+.container--cadastro--button--confirma{
+color:white;
+background-color: rgb(40, 207, 40);
+border:2px solid rgb(40, 207, 40);
+opacity: 0.5;
+transition: all 1s;
+outline: none;
+}
+.container--cadastro--button--confirma:hover{
+  
+    
+    opacity: 1;
+}

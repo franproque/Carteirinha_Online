@@ -1,0 +1,33 @@
+
+.container--item{
+    background-color: #f8f9fa;
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 0 10px #bbb;
+    border: none;
+    border-radius: 8px;
+    transform: scale(0.85);
+    transition: all ease 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.container--item:hover{
+    transform: scale(1);
+    color: #007bff;
+    background-color: white;
+}
+.container--item h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icone{
+    height: 45%;
+    width: 45%;
+    margin-bottom: 20px;
+}
